@@ -5,7 +5,7 @@ namespace Hackerrank_Challenges
 {
     class Program
     {
-        //https://www.hackerrank.com/challenges/s10-basic-statistics/problem
+        // https://www.hackerrank.com/challenges/s10-basic-statistics/problem
         // 10 Days Of Statistics
         // Day 0: Mean, Median, Mode
         static void Main(string[] args)
@@ -28,9 +28,9 @@ namespace Hackerrank_Challenges
 
             // calculate mode: i.e. the number that occurs most frequently in data set
             var mode = data.GroupBy(i => i) // group the data set, i.e. if a number occurs more than put it into its own group
-                    .OrderByDescending(x => x.Count()) // order by the number of occurrences (largest first)
-                    .ThenBy(x => x.Key)      // then order by the the values
-                    .First();                // and take the first element, as it should have the most occurrences and be the smallest number in that grouping
+                           .OrderByDescending(x => x.Count()) // order by the number of occurrences (largest first)
+                           .ThenBy(x => x.Key)      // then order by the the values
+                           .First();                // and take the first element, as it should have the most occurrences and be the smallest number in that grouping
  
 
             var nl = Environment.NewLine;
