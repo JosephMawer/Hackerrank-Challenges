@@ -1,2 +1,2 @@
 # Hackerrank-Challenges
-A collection of answers from hacker rank
+A collection of exercises from hackerrank
