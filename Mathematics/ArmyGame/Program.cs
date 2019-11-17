@@ -12,6 +12,12 @@ namespace ArmyGame
 
             // example input, a 70 * 123 grid
             Console.WriteLine(gameWithCells(70, 123));
+
+
+            // best answer!!
+            // return Math.Ceiling(n/2) * Math.Ceiling(m/2);
+            // or...
+            // return (n+n%2) * (m+m%2) / 4;
         }
 
         // calculate the number of drop off points for a n * m grid, given the fact that

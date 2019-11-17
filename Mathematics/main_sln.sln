@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumHeightTriangle", "Mi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmyGame", "ArmyGame\ArmyGame.csproj", "{21A41D52-1147-44E1-8A0A-314B115FE35A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeonardosPrimeFactors", "LeonardosPrimeFactors\LeonardosPrimeFactors.csproj", "{B4A5F4E0-E63B-4214-BD0A-669B55F44814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{21A41D52-1147-44E1-8A0A-314B115FE35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21A41D52-1147-44E1-8A0A-314B115FE35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21A41D52-1147-44E1-8A0A-314B115FE35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A5F4E0-E63B-4214-BD0A-669B55F44814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A5F4E0-E63B-4214-BD0A-669B55F44814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A5F4E0-E63B-4214-BD0A-669B55F44814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A5F4E0-E63B-4214-BD0A-669B55F44814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
